@@ -1,3 +1,7 @@
+!pip install beautifulsoup4 requests
+import requests
+from bs4 import BeautifulSoup
+import numpy as np
 #Assignment
 assignment_url = "https://faruk-hasan.com/ai_resources/missing_data.html"
 get_req = requests.get(assignment_url) #visit url
