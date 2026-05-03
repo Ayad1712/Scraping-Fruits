@@ -14,7 +14,7 @@ for i in fruit_name_list:
 fruit_array = np.array(list(fruits_set),dtype=str)
 for i in range(len(fruit_array)):
   if fruit_array[i] in ["", "null", "nan"]:
-    fruit_array[i] = ""
+    fruit_array[i] = "unknown"
 for i in fruit_array:
   if i != "":
     var = i.capitalize()
